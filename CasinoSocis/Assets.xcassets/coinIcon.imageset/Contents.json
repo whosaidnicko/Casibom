@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "coin--cartoon-style--2d-game--2d-glossy--mobile-ga.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

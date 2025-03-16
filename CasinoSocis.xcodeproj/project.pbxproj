@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11410B432D7DA65C0073B492 /* CasinoSocis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11410B402D7DA65C0073B492 /* CasinoSocis.swift */; };
+		11410B442D7DA65C0073B492 /* ARHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11410B412D7DA65C0073B492 /* ARHomeView.swift */; };
+		11410B452D7DA65C0073B492 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11410B3D2D7DA65C0073B492 /* Preview Assets.xcassets */; };
+		11410B462D7DA65C0073B492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11410B3F2D7DA65C0073B492 /* Assets.xcassets */; };
+		11410B502D7DA8980073B492 /* ARFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11410B4A2D7DA8980073B492 /* ARFont.swift */; };
+		11410B512D7DA8980073B492 /* ARScreenSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11410B4C2D7DA8980073B492 /* ARScreenSize.swift */; };
+		11410B522D7DA8980073B492 /* ARImageResizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11410B4B2D7DA8980073B492 /* ARImageResizable.swift */; };
+		11410B532D7DA8980073B492 /* ARColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11410B482D7DA8980073B492 /* ARColor.swift */; };
+		11410B542D7DA8980073B492 /* ARCornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11410B492D7DA8980073B492 /* ARCornerRadius.swift */; };
+		11410B552D7DA8980073B492 /* ARSwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11410B4E2D7DA8980073B492 /* ARSwipeAction.swift */; };
+		11410B562D7DA8980073B492 /* ARAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11410B472D7DA8980073B492 /* ARAlignment.swift */; };
+		11410B572D7DA8980073B492 /* ARSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11410B4D2D7DA8980073B492 /* ARSize.swift */; };
+		11410B5A2D7DA9610073B492 /* PoetsenOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11410B592D7DA9610073B492 /* PoetsenOne-Regular.ttf */; };
+		11410B5D2D7DAC2A0073B492 /* ARStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11410B5C2D7DAC2A0073B492 /* ARStartView.swift */; };
+		11410B622D7DB6DC0073B492 /* Animation - 1741520383145.json in Resources */ = {isa = PBXBuildFile; fileRef = 11410B612D7DB6DC0073B492 /* Animation - 1741520383145.json */; };
+		11410B642D7DB72F0073B492 /* ARLottie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11410B632D7DB72B0073B492 /* ARLottie.swift */; };
+		11410B672D7DBB4D0073B492 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 11410B662D7DBB4D0073B492 /* Lottie */; };
+		11410B6A2D7DBF1F0073B492 /* ARLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11410B692D7DBF160073B492 /* ARLaunchView.swift */; };
+		11410B6D2D7DBF9F0073B492 /* AROnboardingTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11410B6C2D7DBF8E0073B492 /* AROnboardingTypes.swift */; };
+		11410B6F2D7DC4CE0073B492 /* ARHapticButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11410B6E2D7DC4CE0073B492 /* ARHapticButton.swift */; };
+		11410B712D7DCC1E0073B492 /* ARSilverFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11410B702D7DCC1E0073B492 /* ARSilverFrame.swift */; };
+		11410B732D7DCFCC0073B492 /* ARRulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11410B722D7DCFBC0073B492 /* ARRulesView.swift */; };
+		11410B752D7DD47A0073B492 /* ARRuleTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11410B742D7DD47A0073B492 /* ARRuleTypes.swift */; };
+		11410B7A2D7DD5280073B492 /* ARRulesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11410B792D7DD5280073B492 /* ARRulesModel.swift */; };
+		11410B7C2D7DD53F0073B492 /* ARRulesVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11410B7B2D7DD53F0073B492 /* ARRulesVM.swift */; };
+		11410B7E2D7DE4DC0073B492 /* ARTransitionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11410B7D2D7DE4DC0073B492 /* ARTransitionStyle.swift */; };
+		11410B802D7DF19C0073B492 /* ARSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11410B7F2D7DF1940073B492 /* ARSettingView.swift */; };
+		11410B892D7E0F460073B492 /* ARSettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11410B882D7E0F460073B492 /* ARSettingCell.swift */; };
+		11410B8B2D7E0F7D0073B492 /* ARSettingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11410B8A2D7E0F760073B492 /* ARSettingType.swift */; };
+		11410B8D2D7E16350073B492 /* ARGameVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11410B8C2D7E16350073B492 /* ARGameVM.swift */; };
+		11410B8F2D7E18280073B492 /* ARRouletteSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11410B8E2D7E181B0073B492 /* ARRouletteSetting.swift */; };
+		11410B912D7E1A930073B492 /* ARGoldFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11410B902D7E1A930073B492 /* ARGoldFrame.swift */; };
+		11410B932D7ED4B80073B492 /* ARMainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11410B922D7ED4B80073B492 /* ARMainTableView.swift */; };
+		11410B952D7EE3090073B492 /* ARTableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11410B942D7EE3000073B492 /* ARTableType.swift */; };
+		11410B972D7EEC810073B492 /* ARResultViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11410B962D7EEC810073B492 /* ARResultViewCell.swift */; };
+		117354212D7F6D0900CC8324 /* ARBlackJackVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117354202D7F6CFE00CC8324 /* ARBlackJackVM.swift */; };
+		117354232D7F6D8A00CC8324 /* ARChipsType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117354222D7F6D8A00CC8324 /* ARChipsType.swift */; };
+		117354252D81767400CC8324 /* ARSoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117354242D81767400CC8324 /* ARSoundManager.swift */; };
+		1173542A2D81807E00CC8324 /* casinoMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 117354292D81807E00CC8324 /* casinoMusic.mp3 */; };
+		1173542C2D818BE400CC8324 /* chipsSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1173542B2D818BE400CC8324 /* chipsSound.mp3 */; };
+		1173542E2D81900D00CC8324 /* wheelPlay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1173542D2D81900D00CC8324 /* wheelPlay.mp3 */; };
+		117354302D8196C100CC8324 /* wheelStop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1173542F2D8196C100CC8324 /* wheelStop.mp3 */; };
+		117354322D81A2A800CC8324 /* ARSoundsType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117354312D81A2A800CC8324 /* ARSoundsType.swift */; };
+		117354342D81A3D000CC8324 /* buttonClick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 117354332D81A3D000CC8324 /* buttonClick.mp3 */; };
+		117354362D81A96300CC8324 /* coinDrop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 117354352D81A96300CC8324 /* coinDrop.mp3 */; };
+		117354382D81E91500CC8324 /* ARWheelNumberType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117354372D81E91400CC8324 /* ARWheelNumberType.swift */; };
+		1173543A2D81F81500CC8324 /* Bet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117354392D81F81500CC8324 /* Bet.swift */; };
+		1173543D2D81F87D00CC8324 /* ARSectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1173543C2D81F87D00CC8324 /* ARSectorView.swift */; };
+		1173543F2D81F89000CC8324 /* ARWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1173543E2D81F89000CC8324 /* ARWheelView.swift */; };
+		117354412D81F8AF00CC8324 /* ARGroupBetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117354402D81F8AF00CC8324 /* ARGroupBetButton.swift */; };
+		117354432D81F8C100CC8324 /* ARNumberButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117354422D81F8C100CC8324 /* ARNumberButton.swift */; };
+		117354452D8202AA00CC8324 /* ARRouletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117354442D8202AA00CC8324 /* ARRouletteView.swift */; };
+		117354472D82033500CC8324 /* ARMainTableComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117354462D82033500CC8324 /* ARMainTableComponents.swift */; };
+		117354492D82C97600CC8324 /* ARBlackJackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117354482D82C96800CC8324 /* ARBlackJackView.swift */; };
+		1173544C2D82EFB900CC8324 /* CardViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1173544B2D82EFB900CC8324 /* CardViewCell.swift */; };
+		1173544E2D82F01C00CC8324 /* ARCardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1173544D2D82F01300CC8324 /* ARCardType.swift */; };
+		117354592D830C2400CC8324 /* ARFlipTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117354582D830C2400CC8324 /* ARFlipTransition.swift */; };
+		1173545B2D83645700CC8324 /* razdacha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1173545A2D83645700CC8324 /* razdacha.mp3 */; };
+		1173545D2D83664200CC8324 /* cardHide.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1173545C2D83664200CC8324 /* cardHide.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11410B2C2D7DA6520073B492 /* CasinoSocis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CasinoSocis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11410B3D2D7DA65C0073B492 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11410B3F2D7DA65C0073B492 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11410B402D7DA65C0073B492 /* CasinoSocis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasinoSocis.swift; sourceTree = "<group>"; };
+		11410B412D7DA65C0073B492 /* ARHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARHomeView.swift; sourceTree = "<group>"; };
+		11410B472D7DA8980073B492 /* ARAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARAlignment.swift; sourceTree = "<group>"; };
+		11410B482D7DA8980073B492 /* ARColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARColor.swift; sourceTree = "<group>"; };
+		11410B492D7DA8980073B492 /* ARCornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCornerRadius.swift; sourceTree = "<group>"; };
+		11410B4A2D7DA8980073B492 /* ARFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARFont.swift; sourceTree = "<group>"; };
+		11410B4B2D7DA8980073B492 /* ARImageResizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARImageResizable.swift; sourceTree = "<group>"; };
+		11410B4C2D7DA8980073B492 /* ARScreenSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARScreenSize.swift; sourceTree = "<group>"; };
+		11410B4D2D7DA8980073B492 /* ARSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSize.swift; sourceTree = "<group>"; };
+		11410B4E2D7DA8980073B492 /* ARSwipeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSwipeAction.swift; sourceTree = "<group>"; };
+		11410B592D7DA9610073B492 /* PoetsenOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PoetsenOne-Regular.ttf"; sourceTree = "<group>"; };
+		11410B5B2D7DA9BD0073B492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		11410B5C2D7DAC2A0073B492 /* ARStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARStartView.swift; sourceTree = "<group>"; };
+		11410B612D7DB6DC0073B492 /* Animation - 1741520383145.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Animation - 1741520383145.json"; sourceTree = "<group>"; };
+		11410B632D7DB72B0073B492 /* ARLottie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARLottie.swift; sourceTree = "<group>"; };
+		11410B692D7DBF160073B492 /* ARLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARLaunchView.swift; sourceTree = "<group>"; };
+		11410B6C2D7DBF8E0073B492 /* AROnboardingTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AROnboardingTypes.swift; sourceTree = "<group>"; };
+		11410B6E2D7DC4CE0073B492 /* ARHapticButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARHapticButton.swift; sourceTree = "<group>"; };
+		11410B702D7DCC1E0073B492 /* ARSilverFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSilverFrame.swift; sourceTree = "<group>"; };
+		11410B722D7DCFBC0073B492 /* ARRulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARRulesView.swift; sourceTree = "<group>"; };
+		11410B742D7DD47A0073B492 /* ARRuleTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARRuleTypes.swift; sourceTree = "<group>"; };
+		11410B792D7DD5280073B492 /* ARRulesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARRulesModel.swift; sourceTree = "<group>"; };
+		11410B7B2D7DD53F0073B492 /* ARRulesVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARRulesVM.swift; sourceTree = "<group>"; };
+		11410B7D2D7DE4DC0073B492 /* ARTransitionStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARTransitionStyle.swift; sourceTree = "<group>"; };
+		11410B7F2D7DF1940073B492 /* ARSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSettingView.swift; sourceTree = "<group>"; };
+		11410B882D7E0F460073B492 /* ARSettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSettingCell.swift; sourceTree = "<group>"; };
+		11410B8A2D7E0F760073B492 /* ARSettingType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSettingType.swift; sourceTree = "<group>"; };
+		11410B8C2D7E16350073B492 /* ARGameVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARGameVM.swift; sourceTree = "<group>"; };
+		11410B8E2D7E181B0073B492 /* ARRouletteSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARRouletteSetting.swift; sourceTree = "<group>"; };
+		11410B902D7E1A930073B492 /* ARGoldFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARGoldFrame.swift; sourceTree = "<group>"; };
+		11410B922D7ED4B80073B492 /* ARMainTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARMainTableView.swift; sourceTree = "<group>"; };
+		11410B942D7EE3000073B492 /* ARTableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARTableType.swift; sourceTree = "<group>"; };
+		11410B962D7EEC810073B492 /* ARResultViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARResultViewCell.swift; sourceTree = "<group>"; };
+		117354202D7F6CFE00CC8324 /* ARBlackJackVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARBlackJackVM.swift; sourceTree = "<group>"; };
+		117354222D7F6D8A00CC8324 /* ARChipsType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARChipsType.swift; sourceTree = "<group>"; };
+		117354242D81767400CC8324 /* ARSoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSoundManager.swift; sourceTree = "<group>"; };
+		117354292D81807E00CC8324 /* casinoMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = casinoMusic.mp3; sourceTree = "<group>"; };
+		1173542B2D818BE400CC8324 /* chipsSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chipsSound.mp3; sourceTree = "<group>"; };
+		1173542D2D81900D00CC8324 /* wheelPlay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wheelPlay.mp3; sourceTree = "<group>"; };
+		1173542F2D8196C100CC8324 /* wheelStop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wheelStop.mp3; sourceTree = "<group>"; };
+		117354312D81A2A800CC8324 /* ARSoundsType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSoundsType.swift; sourceTree = "<group>"; };
+		117354332D81A3D000CC8324 /* buttonClick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buttonClick.mp3; sourceTree = "<group>"; };
+		117354352D81A96300CC8324 /* coinDrop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = coinDrop.mp3; sourceTree = "<group>"; };
+		117354372D81E91400CC8324 /* ARWheelNumberType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARWheelNumberType.swift; sourceTree = "<group>"; };
+		117354392D81F81500CC8324 /* Bet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bet.swift; sourceTree = "<group>"; };
+		1173543C2D81F87D00CC8324 /* ARSectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSectorView.swift; sourceTree = "<group>"; };
+		1173543E2D81F89000CC8324 /* ARWheelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARWheelView.swift; sourceTree = "<group>"; };
+		117354402D81F8AF00CC8324 /* ARGroupBetButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARGroupBetButton.swift; sourceTree = "<group>"; };
+		117354422D81F8C100CC8324 /* ARNumberButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARNumberButton.swift; sourceTree = "<group>"; };
+		117354442D8202AA00CC8324 /* ARRouletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARRouletteView.swift; sourceTree = "<group>"; };
+		117354462D82033500CC8324 /* ARMainTableComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARMainTableComponents.swift; sourceTree = "<group>"; };
+		117354482D82C96800CC8324 /* ARBlackJackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARBlackJackView.swift; sourceTree = "<group>"; };
+		1173544B2D82EFB900CC8324 /* CardViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewCell.swift; sourceTree = "<group>"; };
+		1173544D2D82F01300CC8324 /* ARCardType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCardType.swift; sourceTree = "<group>"; };
+		117354582D830C2400CC8324 /* ARFlipTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARFlipTransition.swift; sourceTree = "<group>"; };
+		1173545A2D83645700CC8324 /* razdacha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = razdacha.mp3; sourceTree = "<group>"; };
+		1173545C2D83664200CC8324 /* cardHide.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cardHide.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11410B292D7DA6520073B492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11410B672D7DBB4D0073B492 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11410B232D7DA6520073B492 = {
+			isa = PBXGroup;
+			children = (
+				11410B422D7DA65C0073B492 /* CasinoSocis */,
+				11410B2D2D7DA6520073B492 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11410B2D2D7DA6520073B492 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11410B2C2D7DA6520073B492 /* CasinoSocis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11410B3E2D7DA65C0073B492 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				11410B3D2D7DA65C0073B492 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		11410B422D7DA65C0073B492 /* CasinoSocis */ = {
+			isa = PBXGroup;
+			children = (
+				11410B5B2D7DA9BD0073B492 /* Info.plist */,
+				11410B3F2D7DA65C0073B492 /* Assets.xcassets */,
+				11410B402D7DA65C0073B492 /* CasinoSocis.swift */,
+				117354262D8179FB00CC8324 /* MusicSound */,
+				11410B762D7DD5020073B492 /* Models */,
+				11410B782D7DD5110073B492 /* ViewModels */,
+				11410B772D7DD50A0073B492 /* Views */,
+				11410B6B2D7DBF860073B492 /* Types */,
+				11410B682D7DBED70073B492 /* Components */,
+				11410B4F2D7DA8980073B492 /* Extention */,
+				11410B3E2D7DA65C0073B492 /* Preview Content */,
+			);
+			path = CasinoSocis;
+			sourceTree = "<group>";
+		};
+		11410B4F2D7DA8980073B492 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				11410B7D2D7DE4DC0073B492 /* ARTransitionStyle.swift */,
+				11410B612D7DB6DC0073B492 /* Animation - 1741520383145.json */,
+				11410B582D7DA8BA0073B492 /* Fonts */,
+				11410B472D7DA8980073B492 /* ARAlignment.swift */,
+				11410B482D7DA8980073B492 /* ARColor.swift */,
+				11410B492D7DA8980073B492 /* ARCornerRadius.swift */,
+				11410B4B2D7DA8980073B492 /* ARImageResizable.swift */,
+				11410B4C2D7DA8980073B492 /* ARScreenSize.swift */,
+				11410B4D2D7DA8980073B492 /* ARSize.swift */,
+				11410B4E2D7DA8980073B492 /* ARSwipeAction.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		11410B582D7DA8BA0073B492 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				11410B592D7DA9610073B492 /* PoetsenOne-Regular.ttf */,
+				11410B4A2D7DA8980073B492 /* ARFont.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		11410B682D7DBED70073B492 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				117354582D830C2400CC8324 /* ARFlipTransition.swift */,
+				117354462D82033500CC8324 /* ARMainTableComponents.swift */,
+				11410B962D7EEC810073B492 /* ARResultViewCell.swift */,
+				11410B902D7E1A930073B492 /* ARGoldFrame.swift */,
+				11410B882D7E0F460073B492 /* ARSettingCell.swift */,
+				11410B702D7DCC1E0073B492 /* ARSilverFrame.swift */,
+				11410B632D7DB72B0073B492 /* ARLottie.swift */,
+				11410B6E2D7DC4CE0073B492 /* ARHapticButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		11410B6B2D7DBF860073B492 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				1173544D2D82F01300CC8324 /* ARCardType.swift */,
+				117354372D81E91400CC8324 /* ARWheelNumberType.swift */,
+				117354312D81A2A800CC8324 /* ARSoundsType.swift */,
+				117354222D7F6D8A00CC8324 /* ARChipsType.swift */,
+				11410B942D7EE3000073B492 /* ARTableType.swift */,
+				11410B742D7DD47A0073B492 /* ARRuleTypes.swift */,
+				11410B8A2D7E0F760073B492 /* ARSettingType.swift */,
+				11410B6C2D7DBF8E0073B492 /* AROnboardingTypes.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		11410B762D7DD5020073B492 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				117354392D81F81500CC8324 /* Bet.swift */,
+				11410B792D7DD5280073B492 /* ARRulesModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		11410B772D7DD50A0073B492 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				11410B5C2D7DAC2A0073B492 /* ARStartView.swift */,
+				11410B692D7DBF160073B492 /* ARLaunchView.swift */,
+				11410B412D7DA65C0073B492 /* ARHomeView.swift */,
+				11410B722D7DCFBC0073B492 /* ARRulesView.swift */,
+				11410B7F2D7DF1940073B492 /* ARSettingView.swift */,
+				11410B8E2D7E181B0073B492 /* ARRouletteSetting.swift */,
+				11410B922D7ED4B80073B492 /* ARMainTableView.swift */,
+				1173544A2D82D70B00CC8324 /* BlackJack */,
+				1173543B2D81F83900CC8324 /* Roulette */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		11410B782D7DD5110073B492 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				117354202D7F6CFE00CC8324 /* ARBlackJackVM.swift */,
+				117354242D81767400CC8324 /* ARSoundManager.swift */,
+				11410B8C2D7E16350073B492 /* ARGameVM.swift */,
+				11410B7B2D7DD53F0073B492 /* ARRulesVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		117354262D8179FB00CC8324 /* MusicSound */ = {
+			isa = PBXGroup;
+			children = (
+				117354292D81807E00CC8324 /* casinoMusic.mp3 */,
+				1173542D2D81900D00CC8324 /* wheelPlay.mp3 */,
+				1173542F2D8196C100CC8324 /* wheelStop.mp3 */,
+				1173542B2D818BE400CC8324 /* chipsSound.mp3 */,
+				117354332D81A3D000CC8324 /* buttonClick.mp3 */,
+				1173545A2D83645700CC8324 /* razdacha.mp3 */,
+				117354352D81A96300CC8324 /* coinDrop.mp3 */,
+				1173545C2D83664200CC8324 /* cardHide.mp3 */,
+			);
+			path = MusicSound;
+			sourceTree = "<group>";
+		};
+		1173543B2D81F83900CC8324 /* Roulette */ = {
+			isa = PBXGroup;
+			children = (
+				117354442D8202AA00CC8324 /* ARRouletteView.swift */,
+				117354422D81F8C100CC8324 /* ARNumberButton.swift */,
+				117354402D81F8AF00CC8324 /* ARGroupBetButton.swift */,
+				1173543E2D81F89000CC8324 /* ARWheelView.swift */,
+				1173543C2D81F87D00CC8324 /* ARSectorView.swift */,
+			);
+			path = Roulette;
+			sourceTree = "<group>";
+		};
+		1173544A2D82D70B00CC8324 /* BlackJack */ = {
+			isa = PBXGroup;
+			children = (
+				117354482D82C96800CC8324 /* ARBlackJackView.swift */,
+				1173544B2D82EFB900CC8324 /* CardViewCell.swift */,
+			);
+			path = BlackJack;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11410B2B2D7DA6520073B492 /* CasinoSocis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11410B3A2D7DA6540073B492 /* Build configuration list for PBXNativeTarget "CasinoSocis" */;
+			buildPhases = (
+				11410B282D7DA6520073B492 /* Sources */,
+				11410B292D7DA6520073B492 /* Frameworks */,
+				11410B2A2D7DA6520073B492 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CasinoSocis;
+			packageProductDependencies = (
+				11410B662D7DBB4D0073B492 /* Lottie */,
+			);
+			productName = Casibom;
+			productReference = 11410B2C2D7DA6520073B492 /* CasinoSocis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11410B242D7DA6520073B492 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					11410B2B2D7DA6520073B492 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 11410B272D7DA6520073B492 /* Build configuration list for PBXProject "CasinoSocis" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11410B232D7DA6520073B492;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				11410B652D7DBB4D0073B492 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 11410B2D2D7DA6520073B492 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11410B2B2D7DA6520073B492 /* CasinoSocis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11410B2A2D7DA6520073B492 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11410B452D7DA65C0073B492 /* Preview Assets.xcassets in Resources */,
+				11410B5A2D7DA9610073B492 /* PoetsenOne-Regular.ttf in Resources */,
+				1173545D2D83664200CC8324 /* cardHide.mp3 in Resources */,
+				1173542A2D81807E00CC8324 /* casinoMusic.mp3 in Resources */,
+				11410B462D7DA65C0073B492 /* Assets.xcassets in Resources */,
+				1173542E2D81900D00CC8324 /* wheelPlay.mp3 in Resources */,
+				1173542C2D818BE400CC8324 /* chipsSound.mp3 in Resources */,
+				117354302D8196C100CC8324 /* wheelStop.mp3 in Resources */,
+				11410B622D7DB6DC0073B492 /* Animation - 1741520383145.json in Resources */,
+				1173545B2D83645700CC8324 /* razdacha.mp3 in Resources */,
+				117354362D81A96300CC8324 /* coinDrop.mp3 in Resources */,
+				117354342D81A3D000CC8324 /* buttonClick.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11410B282D7DA6520073B492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11410B6F2D7DC4CE0073B492 /* ARHapticButton.swift in Sources */,
+				11410B932D7ED4B80073B492 /* ARMainTableView.swift in Sources */,
+				11410B432D7DA65C0073B492 /* CasinoSocis.swift in Sources */,
+				11410B442D7DA65C0073B492 /* ARHomeView.swift in Sources */,
+				11410B952D7EE3090073B492 /* ARTableType.swift in Sources */,
+				11410B5D2D7DAC2A0073B492 /* ARStartView.swift in Sources */,
+				11410B912D7E1A930073B492 /* ARGoldFrame.swift in Sources */,
+				1173543D2D81F87D00CC8324 /* ARSectorView.swift in Sources */,
+				1173543A2D81F81500CC8324 /* Bet.swift in Sources */,
+				11410B752D7DD47A0073B492 /* ARRuleTypes.swift in Sources */,
+				11410B502D7DA8980073B492 /* ARFont.swift in Sources */,
+				11410B802D7DF19C0073B492 /* ARSettingView.swift in Sources */,
+				11410B7E2D7DE4DC0073B492 /* ARTransitionStyle.swift in Sources */,
+				11410B512D7DA8980073B492 /* ARScreenSize.swift in Sources */,
+				11410B7A2D7DD5280073B492 /* ARRulesModel.swift in Sources */,
+				11410B522D7DA8980073B492 /* ARImageResizable.swift in Sources */,
+				11410B8F2D7E18280073B492 /* ARRouletteSetting.swift in Sources */,
+				117354322D81A2A800CC8324 /* ARSoundsType.swift in Sources */,
+				11410B972D7EEC810073B492 /* ARResultViewCell.swift in Sources */,
+				11410B532D7DA8980073B492 /* ARColor.swift in Sources */,
+				11410B6D2D7DBF9F0073B492 /* AROnboardingTypes.swift in Sources */,
+				11410B542D7DA8980073B492 /* ARCornerRadius.swift in Sources */,
+				117354452D8202AA00CC8324 /* ARRouletteView.swift in Sources */,
+				117354382D81E91500CC8324 /* ARWheelNumberType.swift in Sources */,
+				11410B732D7DCFCC0073B492 /* ARRulesView.swift in Sources */,
+				117354252D81767400CC8324 /* ARSoundManager.swift in Sources */,
+				11410B642D7DB72F0073B492 /* ARLottie.swift in Sources */,
+				117354592D830C2400CC8324 /* ARFlipTransition.swift in Sources */,
+				11410B6A2D7DBF1F0073B492 /* ARLaunchView.swift in Sources */,
+				117354412D81F8AF00CC8324 /* ARGroupBetButton.swift in Sources */,
+				11410B8B2D7E0F7D0073B492 /* ARSettingType.swift in Sources */,
+				11410B712D7DCC1E0073B492 /* ARSilverFrame.swift in Sources */,
+				117354232D7F6D8A00CC8324 /* ARChipsType.swift in Sources */,
+				117354472D82033500CC8324 /* ARMainTableComponents.swift in Sources */,
+				1173544E2D82F01C00CC8324 /* ARCardType.swift in Sources */,
+				117354432D81F8C100CC8324 /* ARNumberButton.swift in Sources */,
+				11410B552D7DA8980073B492 /* ARSwipeAction.swift in Sources */,
+				11410B8D2D7E16350073B492 /* ARGameVM.swift in Sources */,
+				11410B892D7E0F460073B492 /* ARSettingCell.swift in Sources */,
+				1173543F2D81F89000CC8324 /* ARWheelView.swift in Sources */,
+				117354212D7F6D0900CC8324 /* ARBlackJackVM.swift in Sources */,
+				11410B562D7DA8980073B492 /* ARAlignment.swift in Sources */,
+				117354492D82C97600CC8324 /* ARBlackJackView.swift in Sources */,
+				11410B572D7DA8980073B492 /* ARSize.swift in Sources */,
+				1173544C2D82EFB900CC8324 /* CardViewCell.swift in Sources */,
+				11410B7C2D7DD53F0073B492 /* ARRulesVM.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		11410B382D7DA6540073B492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11410B392D7DA6540073B492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11410B3B2D7DA6540073B492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CasinoSocis/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CasinoSocis/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Casino Boom Socis";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeLeft;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinshka.socigm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		11410B3C2D7DA6540073B492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CasinoSocis/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CasinoSocis/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Casino Boom Socis";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeLeft;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinshka.socigm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11410B272D7DA6520073B492 /* Build configuration list for PBXProject "CasinoSocis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11410B382D7DA6540073B492 /* Debug */,
+				11410B392D7DA6540073B492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11410B3A2D7DA6540073B492 /* Build configuration list for PBXNativeTarget "CasinoSocis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11410B3B2D7DA6540073B492 /* Debug */,
+				11410B3C2D7DA6540073B492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		11410B652D7DBB4D0073B492 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		11410B662D7DBB4D0073B492 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11410B652D7DBB4D0073B492 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 11410B242D7DA6520073B492 /* Project object */;
+}
